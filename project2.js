@@ -150,7 +150,7 @@ function draw() {
   }
 }
 
-  function mouseClicked (){
+  function touchStarted (){
     if (page==1){
       if (mouseX<125 && mouseX>45 && mouseY<772 && mouseY>745){
         page=2;
